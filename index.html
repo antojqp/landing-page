@@ -9,6 +9,7 @@
     <script src="js/uikit-icons.js"></script>
 </head>
 <body>
+	<!-- full backgroud made from here -->
 <div class="uk-height-viewport uk-width-expand uk-background-primary uk-margin-remove-bottom">
 	<br>
 	<div class="uk-background-muted uk-align-center uk-border-rounded uk-width-3-4 uk-padding-small uk-margin-top">
@@ -16,15 +17,66 @@
 	<p class="uk-text-small uk-text-center uk-text-muted">A.K.A God</p>
 	<p class="uk-text-meta uk-text-large uk-text-center">Jack of all trades Developer | Fast learner | Multilanguages | Mostly web developer</p>
 	<div class="uk-container" hidden id="description">
-		<p>Quis in ut excepteur in esse ut est consectetur voluptate adipisicing ullamco aliquip nostrud exercitation laboris commodo consectetur ut. Labore aliqua laboris pariatur esse et excepteur in id cillum et est ex commodo velit qui ea. Lorem ipsum ad qui ut sunt cupidatat excepteur aliquip voluptate ut aute mollit irure eiusmod sunt dolore. Aliqua sit elit cillum minim exercitation velit est ea ad ex in. Lorem ipsum ut consectetur amet tempor id esse ut in elit dolore nostrud voluptate aliquip. Lorem ipsum excepteur velit exercitation quis dolor cillum aliqua culpa minim. Lorem ipsum id mollit eu velit exercitation occaecat ut ut amet quis. Pariatur aute elit pariatur minim officia nulla in ullamco voluptate. Anim dolor nulla culpa in aute irure cupidatat in nulla fugiat. Deserunt do laborum proident deserunt sint veniam eu labore dolor id laboris ullamco mollit labore anim et do proident. Lorem ipsum eu amet aliquip dolore ea qui ea minim ex tempor. Elit sunt fugiat ullamco pariatur officia laborum tempor ut eu ut labore mollit excepteur proident.</p>
+		<div class="uk-container uk-width-3-4 uk-text-center">
+			<h2 class="uk-heading"><a uk-toggle="target: #ToolKit; animation: uk-animation-slide-bottom">ToolKit</a></h2>
+			<div uk-grid class="uk-child-width-1-4@m uk-child-width-1-2" hidden id="ToolKit">
+				<div >
+					<h4>Languages</h4>
+					<ul class="uk-list">
+						<li><span uk-icon="icon: HTML5"></span>HTML5</li>
+						<li><span uk-icon="icon: CSS3"></span>CSS3</li>
+						<li><span uk-icon="icon: PHP"></span>PHP</li>
+						<li><span uk-icon="icon: JAVA"></span>Java</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Frameworks</h4>
+					<ul class="uk-list">
+						<li><span uk-icon="icon: uikit"></span>Uikit</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Version control</h4>
+					<ul class="uk-list">
+						<li><span uk-icon="icon: github"></span>Github</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Design tools</h4>
+					<ul class="uk-list">
+						<li><span uk-icon="icon: photoshop"></span>Adobe Photoshop</li>
+						<li><span uk-icon="icon: illustrator"></span>Adobe Illustrator</li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="uk-heading"><a uk-toggle="target: #Projects; animation: uk-animation-slide-bottom">Projects</a></h2>
+			<div class="uk-container" uk-grid id="Projects" hidden>
+				<div>
+					<img src="" class="uk-width-1-4 uk-align-left">
+					<div class="uk-width-3-4">
+						<h4 class="uk-text-center">Complete PHP E-commerce template</h4>
+						<p class="uk-text-justify">Amet deserunt do anim voluptate officia tempor aute pariatur ad officia in dolore. Ea sed mollit exercitation nisi laborum minim in et laborum et dolor fugiat fugiat in dolore esse. Mollit ea nisi labore qui dolore sint adipisicing voluptate veniam mollit ut ad aliquip in. Aute mollit consectetur fugiat ex id sed in incididunt. Lorem ipsum irure pariatur laborum laborum ex laboris et nulla ut nulla. Proident sed magna in anim nisi ut anim ad minim officia mollit fugiat qui nulla. In dolor officia ex ullamco reprehenderit in ad ex ullamco consequat culpa dolore anim consequat cillum. Nulla ea anim sed minim fugiat veniam esse ea labore do commodo.</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
 	</div>
 	<p class="uk-text-center">		
 		<a href="" uk-icon="icon: linkedin; ratio:3"></a>
 		<a href="" uk-icon="icon: github; ratio:3"></a>
 		<a href="mailto:antoniojoseqp@hotmail.com" uk-icon="icon: mail; ratio:3"></a>
 	</p>
-	<a href="" uk-icon="icon: chevron-down; ratio: 2" class="uk-align-center uk-text-center" uk-toggle="target: #description; animation: uk-animation-slide-bottom"></a>
+	<!-- buttom -->
+	<a href="" uk-icon="icon: chevron-down; ratio: 2" class="uk-align-center uk-text-center" uk-toggle="target: #description; animation: uk-animation-slide-bottom" id="description"></a>
+	<!-- buttom to return -->
+	<a href="" uk-icon="icon: chevron-up; ratio: 2" class="uk-align-center uk-text-center" hidden uk-toggle="target: #description; animation: uk-animation-slide-bottom" id="description"></a>
 </div>
 </div>
 </body>
 </html>
+<!-- credits till I learn how to make svg's:
+ >>HTML5 icon made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+ >>CSS icon made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+ >>PHP icon made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+-->
